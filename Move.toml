@@ -1,0 +1,12 @@
+[package]
+name = 'apt-coin'
+version = '1.0.0'
+
+[addresses]
+publisher = "a9f715f996c6174c4ce5eebfc68cc359936741d430657824885c9b158b7382da"
+source_addr = "21a086aa8690771397d4bf5156901b9b0789785629eef2ddc04d36a55511e021"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
